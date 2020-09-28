@@ -1,0 +1,21 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(74,175,244);
+    background: radial-gradient(circle, rgba(74,175,244,1) 35%, rgba(74,67,244,1) 100%);
+}
+
+.concluido{
+    -webkit-text-decoration-line: line-through; /* Safari */
+   text-decoration-line: line-through;
+   color: #a3a375;
+}
