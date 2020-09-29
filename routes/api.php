@@ -13,7 +13,14 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+Route::get('todo', 'TodoApiController@index');
+Route::get('todo/{id}', 'TodoApiController@show');
+Route::post('todo', 'TodoApiController@store');
+Route::put('todo/{id}', 'TodoApiController@update');
+Route::delete('todo/{id}', 'TodoApiController@delete');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
