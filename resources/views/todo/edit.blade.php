@@ -10,7 +10,7 @@
             <div class="input-group mb-3 w-100">
                 <input type="text" class="form-control form-control-lg" name="title" value="{{$todo->title}}" aria-label="Recipient's username" atia-describedby="button-addon2">
                 <div class="input-group-append">
-                    <button class="btn btn-success" type="submit" id="button-addon2">Save</button>
+                    <button class="btn btn-success" type="submit" id="button-addon2">Salvar</button>
                 </div>
             </div>
             </form>
