@@ -41,7 +41,7 @@
 
                         <div class="mr-4 d-flex align-items-center">
                             <a class="inlame-block" href="{{route('todo.edit', $todo->id)}}">
-                            <i class="far fa-edit fa-2x text-primary"></i>
+                            <i class="far fa-edit fa-2x" style="color:#ff9800"></i>
                             </a>
 
                             <form action="{{route('todo.destroy', $todo->id)}}" method="POST">
