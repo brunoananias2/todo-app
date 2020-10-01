@@ -12,7 +12,7 @@ Aplicação **Todo list** (Lista de Tarefas) desenvolvida em Laravel com persist
 - G. Criar single page app utilizando VueJS, React ou Angular
 - H. Publicar projeto no heroku
 
-<p align="center">Deploy no <a href="https://todo-brunoananias.herokuapp.com/">Heroku</a>.</p>
+<h2 align="center">Deploy no <a href="https://todo-brunoananias.herokuapp.com/">Heroku</a>.</h2>
 
 <hr>
 
